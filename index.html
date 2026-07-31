@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PEC College | AI College Assistant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <div class="college-logo">
+                🎓
+            </div>
+
+            <h2>PEC College</h2>
+
+            <p class="subtitle">
+                AI College Assistant
+            </p>
+
+            <nav>
+
+                <ul>
+
+                    <li>🏠 Home</li>
+
+                    <li>🎓 Admissions</li>
+
+                    <li>📚 Courses</li>
+
+                    <li>💰 Fee Structure</li>
+
+                    <li>🏠 Hostel</li>
+
+                    <li>💼 Placement Cell</li>
+
+                    <li>🏆 Scholarships</li>
+
+                    <li>☎ Contact Us</li>
+
+                </ul>
+
+            </nav>
+
+        </aside>
+
+        <!-- Main Section -->
+
+        <main class="main-content">
+
+            <header>
+
+                <h1>AI Chatbot for College Enquiries</h1>
+
+                <p>
+                    Welcome to PEC College. Ask anything related to admissions,
+                    courses, fees, placements, hostel facilities and more.
+                </p>
+
+            </header>
+
+            <!-- Chat Area -->
+
+            <section class="chat-area" id="chatBox">
+
+                <div class="bot-chat">
+
+                    <div class="bot-icon">
+                        🤖
+                    </div>
+
+                    <div class="chat-message">
+
+                        <h3>AI Assistant</h3>
+
+                        <p>
+                            Hello! Welcome to PEC College.
+                        </p>
+
+                        <p>
+                            I am your virtual college assistant.
+                        </p>
+
+                        <p>
+                            You can ask me about:
+                        </p>
+
+                        <ul>
+
+                            <li>Admission Process</li>
+
+                            <li>Courses Offered</li>
+
+                            <li>Fee Structure</li>
+
+                            <li>Hostel Facilities</li>
+
+                            <li>Placement Cell</li>
+
+                            <li>Scholarships</li>
+
+                            <li>Contact Details</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Quick Buttons -->
+
+            <section class="quick-buttons">
+
+                <button onclick="quickQuestion('Admission')">Admission</button>
+
+                <button onclick="quickQuestion('Courses')">Courses</button>
+
+                <button onclick="quickQuestion('Fees')">Fees</button>
+
+                <button onclick="quickQuestion('Hostel')">Hostel</button>
+
+                <button onclick="quickQuestion('Placement')">Placement</button>
+
+                <button onclick="quickQuestion('Scholarship')">Scholarship</button>
+
+                <button onclick="quickQuestion('Contact')">Contact</button>
+
+            </section>
+
+            <!-- Input -->
+
+            <section class="input-section">
+
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Type your question here...">
+
+                <button onclick="sendMessage()">
+                    Send
+                </button>
+
+            </section>
+
+            <!-- Footer -->
+
+            <footer>
+
+                © 2026 PEC College | AI College Assistant
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

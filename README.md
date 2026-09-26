@@ -54,5 +54,4 @@ The frontend and Flask backend have been developed and tested locally.
 
 The application is being deployed on Render as a cloud-hosted web application. Further enhancements, such as database integration and AI/LLM-based responses, can be added in future versions.
 ## live demo
-
-[Open the AI College Chatbot](https://ai-college-chatbot-gqe8.onrender.com)
+(https://ai-college-chatbot-gqe8.onrender.com)
